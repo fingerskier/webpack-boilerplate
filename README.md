@@ -1,45 +1,11 @@
-<!-- markdownlint-disable MD001 -->
-<!-- markdownlint-disable MD033 -->
+# webpack-boilerplate
 
-### Note: This project is no longer actively maintained.
-
-Unfortunately, I don't have the time/enthusiasm to maintain this project right now. I recommend forking this project, or reading its source to learn how it's built.
-
----
-
-# tris-webpack-boilerplate
-
-[![Build Status](https://travis-ci.com/tr1s/tris-webpack-boilerplate.svg?branch=master)](https://travis-ci.com/tr1s/tris-webpack-boilerplate)
-[![Dependencies Status](https://img.shields.io/david/tr1s/tris-webpack-boilerplate.svg)](https://github.com/tr1s/tris-webpack-boilerplate)
-[![Dev Dependencies Status](https://img.shields.io/david/dev/tr1s/tris-webpack-boilerplate.svg)](https://github.com/tr1s/tris-webpack-boilerplate)
-[![Twitter Badge](https://img.shields.io/badge/chat-twitter-blue.svg)](https://twitter.com/triscodes)
-![License Badge](https://img.shields.io/github/license/tr1s/tris-webpack-boilerplate.svg)
-[![Donate Badge](https://img.shields.io/badge/buy%20me%20a%20tea-donate-yellow.svg)](https://paypal.me/Nightizm)
-
-![Google Lighthouse Report](https://imgur.com/lqhTYxk.jpg)
-
-**This webpack boilerplate is for beginner, intermediate, and advanced developers looking to create static websites quickly while acheiving all the right optimizations to score perfect on [Google Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/) and [Google Lighthouse Reports](https://developers.google.com/web/tools/lighthouse/)** — This is an evolution of [tris-gulp-boilerplate](https://github.com/tr1s/tris-gulp-boilerplate), now with Webpack 4. Webpack is the new standard for bundling JS which [Gulp](https://gulpjs.com/) wasn't capable of. Thankfully Webpack can both run tasks and bundle js 💪
-
-The goal of this project/boilerplate is to reach the following people:
-
-1. **The beginners** 👶 — who although use Gulp/Webpack/Node/Npm still need more thorough explainations than the more acquainted developers. They want things to work, but they want to know _how_ and _why_ as well.
-2. **The side-project hustlers** 🏃‍♀️ — those with all the great ideas but don't want to waste time with setup. They need to get their ideas, apps, and websites out and into the browser... _fast_.
-3. **The obsessive compulsive** 🕵️‍♂️ — people who love getting those perfect scores on performance and optimizaitons reports. People who are digitally organized and pride themselves knowing that all their files are minimized, compressed, zipped, and ready to ship!
-
-Feel free to fork this repo and create your own workflow based off this template! Everyone's a little different, I understand.
-
----
-
-# Usage
-
-You need [git](https://git-scm.com/) and [node.js](https://nodejs.org/) on your computer before running.
+## Installation
 
 1. `git clone https://github.com/tr1s/tris-webpack-boilerplate.git your-project-name`
 2. `cd your-project-name && rm -rf .git`
 3. `npm install`
 4. `npm start`
-
-You're all set, start coding 👩‍💻👨‍💻 !
 
 Remove everything in the `src/styles/` folder, `src/index.html` and `src/index.scss/` if you'd like to start 100% fresh and/or create your own Sass worklow. I based my folder structure off the [7-1 pattern](https://vanseodesign.com/css/sass-directory-structures/).
 
@@ -47,15 +13,8 @@ Remove everything in the `src/styles/` folder, `src/index.html` and `src/index.s
 
 **If you'd like an in-depth explaination as to how everything works, please read about the features below.** Otherwise, carry on coding and have fun :)
 
----
 
----
-
----
-
----
-
-# Features / Contents
+## Features / Contents
 
 - [tris-webpack-boilerplate](#tris-webpack-boilerplate)
 - [Usage](#usage)
@@ -81,9 +40,8 @@ Remove everything in the `src/styles/` folder, `src/index.html` and `src/index.s
 
 <a name="wcs"/></a>
 
----
 
-# Features Explained
+## Features Explained
 
 ### Webpack Config Split
 
